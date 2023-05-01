@@ -37,7 +37,7 @@ Now, you can start using DebtManagerBot through your Telegram client. Here are t
 - `/start` - Welcome message and introduction to DebtManagerBot
 - `/add_debtor [name]` - Add a new debtor with the provided name
 - `/add_debt [name] [amount] [concept] (date)` - Add a debt for the specified debtor. The date is optional, and if not provided, the current date will be used
-- `/add_payment [name] [amount] (note) (date)` - Add a payment for the specified debtor. Both the note and the date are optional
+- `/add_payment [name] [concepto] [amount] (note) (date)` - Add a payment for the specified debtor. Both the note and the date are optional
 - `/show_debtors_summary` - Display a summary of all debtors and their total outstanding balances
 - `/show_debtor_details [name]` - Show detailed information about the specified debtor, including their debts, payments, and remaining balance
 
