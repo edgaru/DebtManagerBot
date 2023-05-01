@@ -39,6 +39,6 @@ def get_all_debtors(owner: str):
     return list(debtors)
 
 
-def get_debtor(owner: str, debtor_id: ObjectId) -> dict:
-    debtor = db.debtors.find_one({"owner": owner, "_id": debtor_id})
+def get_debtor(owner: str, debtor_id: str) -> dict:
+    debtor = db.debtors.find_one({"owner": owner, "name": debtor_id})
     return debtor
