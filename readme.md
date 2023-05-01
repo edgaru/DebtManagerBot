@@ -14,7 +14,7 @@ DebtManagerBot is a simple yet effective Telegram bot designed to help you manag
 
 - Python 3.7 or later
 - MongoDB
-- python-telegram-bot library (version 13.6)
+- python-telegram-bot
 
 ## Installation
 
