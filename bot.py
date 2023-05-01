@@ -15,7 +15,7 @@ async def start(update: Update, context: CallbackContext):
         "Comandos disponibles:\n"
         "/add_debtor [nombre] - Agrega un nuevo deudor con el nombre proporcionado.\n"
         "/add_debt [nombre] [concepto] [monto] (fecha) - Agrega una deuda al deudor especificado. La fecha es opcional.\n"
-        "/add_payment [nombre] [monto] (nota) (fecha) - Agrega un pago al deudor especificado. La nota y la fecha son opcionales.\n"
+        "/add_payment [nombre] [concpto] [monto] (nota) (fecha) - Agrega un pago al deudor especificado. La nota y la fecha son opcionales.\n"
         "/show_debtors_summary - Muestra un resumen de las deudas de todos los deudores.\n"
         "/show_debtor_details [nombre] - Muestra los detalles de la deuda del deudor especificado, incluidos los pagos realizados y el monto adeudado.\n"
     )
